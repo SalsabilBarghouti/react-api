@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(101, 194, 197, 0.247);
+}
+.countries{
+    display:flex;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 10px rgba(51, 51, 51, 0.089);
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px ;
+}
+.image img{
+    width: 150px;
+    height: 100px;
+}
+
+.alph2{
+    display: none;
+}
+.alph3{
+    display: none;
+}
+.add{
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #e71d1d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 30px;
+    
+  }

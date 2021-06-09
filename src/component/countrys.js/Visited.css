@@ -1,0 +1,35 @@
+
+body{
+    background-color: rgba(101, 194, 197, 0.247);
+}
+.cards{
+    display:flex;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 10px rgba(51, 51, 51, 0.089);
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px ;
+}
+.image img{
+    width: 160px;
+    height: 110px;
+}
+
+.alph2{
+    display: none;
+}
+.alph3{
+    display: none;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 15px;
+    margin: 60px;
+}
+
